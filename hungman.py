@@ -4,7 +4,7 @@ import sys
 
 
 def hangman():
-    secret_words = ('python', 'java', 'window', 'sofa', 'chair', 'table', 'pillow', 'bathroom', 'garage', 'corona')
+    secret_words = ('python', 'java', 'window', 'sofa', 'chair', 'table', 'pillow', 'bathroom', 'garage', 'notepad')
     secret_word = random.choice(secret_words)
     guessed_letters = []
     word = ['-' for _ in secret_word]
